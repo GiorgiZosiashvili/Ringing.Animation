@@ -15,12 +15,12 @@ export default function App() {
             return (
               <MotiView
                 from={{ opacity: 0.7, scale: 1 }}
-                animate={{ opacity: 0, scale: 3.5 }}
+                animate={{ opacity: 0, scale: 4 }}
                 transition={{
                   type: "timing",
                   duration: 4000,
                   easing: Easing.out(Easing.ease),
-                  delay: index * 500,
+                  delay: index * 400,
                   repeatReverse: false,
                   loop: true,
                 }}
